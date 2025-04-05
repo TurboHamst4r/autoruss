@@ -1,0 +1,33 @@
+.btn {
+    border-radius: 8px;
+    border-color: #ff9549;
+    border: none;
+}
+
+.btn span {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.btn--size--high {
+    padding: 18.5px 30px;
+}
+
+.btn--size--medium {
+    padding: 16px 30px;
+}
+
+.btn--size--small {
+    padding: 13px 30px;
+}
+
+.btn--call-me span::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/Icon.svg);
+    background-position: center;
+    background-size: contain;
+}
