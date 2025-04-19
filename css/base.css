@@ -1,0 +1,52 @@
+/*Установить всем элементам на странице поведение при котором в указанный в css размер будут включены и padding и border*/
+*,
+ *::after,
+ *::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    /* Убрать маркеры у маркированного списка */
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    /* Наследовать цвет текста от родител */
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}

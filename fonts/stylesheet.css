@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'TT TANK';
+    src: url('TTTANK-Md.woff2') format('woff2'),
+        url('TTTANK-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT TANK';
+    src: url('TTTANK-Bd.woff2') format('woff2'),
+        url('TTTANK-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT TANK';
+    src: url('TTTANK-Lt.woff2') format('woff2'),
+        url('TTTANK-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
