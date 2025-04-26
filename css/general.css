@@ -1,0 +1,63 @@
+.btn {
+    border-radius: 8px;
+    border-color: #ff9549;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #181818;
+}
+
+.btn span {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.btn span::after {
+    content: "";
+    background-color: #ff9549;
+    border: none;
+    font-weight: 500;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #181818;
+    border-right: 2px solid #181818;
+    transform: rotate(45deg);
+    border-radius: 1px;
+}
+
+.btn--size--high {
+    padding: 18.5px 30px;
+}
+
+.btn--size--medium {
+    padding: 16px 30px;
+}
+
+.btn--size--small {
+    padding: 13px 30px;
+}
+
+.btn--call-me span::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/Icon.svg);
+    background-position: center;
+    background-size: contain;
+}
+
+.btn--call-me span::after {
+    display: none;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn--transparent span::after {
+    border-top: 2px solid #181818;
+    border-right: 2px solid #181818;
+}

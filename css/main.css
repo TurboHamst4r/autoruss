@@ -1,0 +1,340 @@
+.wrapper {
+    background-color: #181818;
+    min-height: 100%;
+    color: #fff;
+    font-family: 'TT TANK', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.container {
+
+
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.header__container {
+    display: flex;
+    /* Расстояние между колонками flex-контейнера */
+    column-gap: 32px;
+}
+
+.logo {
+    display: block;
+    width: 54px;
+    height: 70px;
+}
+
+.header__logo {}
+
+.logo__img {}
+
+.header__content {
+    flex: 1;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.location {
+    font-weight: 500;
+    font-size: 14px;
+    color: #939697;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.location::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/location.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.services {
+    display: flex;
+    column-gap: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+}
+
+.services_item {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.services_item::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.services__service::before {
+    background-image: url(../images/icons/service.svg);
+}
+
+.services__test-drive::before {
+    background-image: url(../images/icons/test-drive.svg);
+}
+
+.services_link {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header__botton {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__title {
+    display: flex;
+}
+
+.header__title::after {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    margin: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.title-block {
+    display: flex;
+    column-gap: 40px;
+}
+
+.title {}
+
+.subtitle {}
+
+.header__contacts {}
+
+.contacts {}
+
+.phone-wrap::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #00d154;
+    border-radius: 50%;
+}
+
+.welcome {
+    min-height: 700px;
+    background-image: url(../images/welcome_bg.jpg);
+    background-size: cover;
+    background-position: left center;
+    padding: 179px;
+    margin-bottom: 20px;
+}
+
+.welcome__title-wrap {
+    margin-bottom: 40px
+}
+
+.welcome__supertitle,
+.welcome__subtitle {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.welcome__title {
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 11px 0px;
+}
+
+.phone {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.phone-wrap__info {
+    text-align: right;
+    font-size: 14px;
+    color: #939697;
+}
+
+.btn {
+    background-color: #ff9549;
+
+}
+
+.btn--call-me {}
+
+/*предложение */
+.promo {
+    margin-bottom: 60px
+}
+
+.container {}
+
+.promo_content {
+    background: #252c2c;
+    border-radius: 10px;
+    padding: 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    text-transform: uppercase;
+    max-width: 318px;
+}
+
+.promo_timer {
+    display: flex;
+    column-gap: 30px;
+}
+
+.promo_timer-item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 4px solid #ff9549;
+    border-radius: 50%;
+    position: relative;
+}
+
+.promo_timer-item:not(:last-child)::after {
+    content: ":";
+    font-weight: 700;
+    font-size: 39px;
+    display: inline-block;
+    position: absolute;
+    right: -24px;
+
+}
+
+.promo_timer-value {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+
+.promo_timer-label {
+    font-size: 12px;
+    text-align: center;
+}
+
+.promo_btn-wrap {}
+
+.btn {}
+
+.btn--size--high {}
+
+/* Преимущества */
+
+.benefits {}
+
+.container {}
+
+.benefits__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.be {}
+
+.benefits__item {
+    /* Если у всех элементов установить flex: 1 то они разделят поравну свободное пространство flex-контейнера */
+    flex: 1;
+}
+
+.benefit {
+    border: 1px solid #939697;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.benefits__icon {
+    max-width: 44px;
+    max-height: 44px;
+    /* Картинка помещается в указанные размеры с сохранением пропорций */
+    object-fit: contain;
+}
+
+.benefit__text {
+    width: 312px;
+    padding-left: 20px;
+}
+
+.benefit__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.benefit__desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.booking-promo {}
+
+.booking__text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.booking__img {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.booking__img-car {
+    display: inline-block;
+}
+
+.booking__img-car_und {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
